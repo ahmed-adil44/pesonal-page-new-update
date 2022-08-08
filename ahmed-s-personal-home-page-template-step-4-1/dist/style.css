@@ -1,0 +1,71 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+
+html{
+  background-color:rgb(255, 64, 64);
+}
+body {
+  margin: 0;
+  height: 100%;
+  width:95%;
+  text-align:center;
+  background-color:silver;
+  margin-left:40px;
+}
+img{
+  width:62%;
+  magrin-top:30px;
+  margin-bottom:30px;
+}
+#p{
+  text-align:left;
+  padding-left:20px;
+  width:90%;
+  margin:30px 0px 40px 30px;
+  
+}
+.par{
+ 
+  background-color:rgb(228, 143, 143);
+  font-size:20px;
+  margin-right:150px;
+  margin-left:150px;
+  border-top:3px solid black;
+  border-bottom:3px solid black;
+  margin-bottom:30px;
+  border-width:5px 5px 5px 5px ;
+  border-style: dashed;
+  border-right:none;
+  border-left:none;
+  border-radius: 50px;
+  border-bottom-length: 50%;
+}
+.c-site-footer{
+  text-align:left;
+  margin:10px 0px 30px 150px;
+}
+nav li{
+  list-style:none;
+}
+  nav a {
+    text-decoration:none;
+    color:red;
+    margin:5px 5px 5px 5px;
+    border:px solid black;
+    
+  }
+nav a:hover{
+  background-color:pink;
+}
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
